@@ -46,6 +46,7 @@ declare module '$env/static/private' {
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
+	export const npm_config_engine_strict: string;
 	export const COLORTERM: string;
 	export const _CE_M: string;
 	export const WSL_DISTRO_NAME: string;
@@ -150,6 +151,7 @@ declare module '$env/dynamic/private' {
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
+		npm_config_engine_strict: string;
 		COLORTERM: string;
 		_CE_M: string;
 		WSL_DISTRO_NAME: string;
